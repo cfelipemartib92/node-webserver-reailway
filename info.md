@@ -75,13 +75,25 @@
     19.7 VOY AL PACKAGE.JSON y especificar un comindo que tiene que tener: "start":"node app.js" // si necesita le agrego un path
     19.8 lo probamos agregando en la consola: npm start
     19.9 creamos un respaldo a los modulos de node
-        --git
+    --GIT -----------------------------------------------------------
         19.9.1 creamos un archivo en los modulos de node llamado .gitignore
-        19.9.2 monsto los archivos que no quiero que tnega seguimiento:
+        19.9.2 monsto los archivos que no quiero que tnega seguimiento: en este caso escribimos : node_modules/ (está en el archivo .gitignore)
 20. preparamos los repositorios en la consola montando a git con los siguientes comnds:
     * git init
     * git add . //para tomar los archivos y prepararlos para el stage
     * git commit -m "Webserver listo"//tomamos la fotografía de los archivos    * 
+    --RAILWQAY SERVER -----------------------------------------------------------
+21. Desplegamos la aplicación en la nube Raiilway 
+    21.1 para la web - usaremos un servidor que pueda procesar peticiones
+    21.2 usaremos en nuestro caso railway - gratuito
+    21.3 creamos una cuenta
+    21.4 montamos la info desde github con el siguiente comando git:
+        (retirno mi file de entorno .nev)
+    --GIT -----------------
+    * git init 
+    * git add .
+    * gitt commit -m "Webserver Listo"
+
 
 
     
