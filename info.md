@@ -93,6 +93,32 @@
     * git init 
     * git add .
     * gitt commit -m "Webserver Listo"
+    *** montamos en repositorio de git - se ve cuando abrimos el reposiorio del gti (https://github.com/cfelipemartib92/node-webserver-reailway)
+    * git remote add origin https://github.com/cfelipemartib92/node-webserver-reailway.
+    * git git branch -M main
+    * git push -u origin main
+    21.5 voy a railway y hacemos click en el dashboar en +new project
+    21.6 -> deploy from github repo->seleccionamos el nombre del projecto->deploy now
+    21.7 en settings voy y selecciono generate domain, y nos manda una rta en este caso: node-webserver-reailway-production.up.railway.app
+    21.8 puedo cambiar el nombre del servidor a mi correo
+    -----Desplegando en apps de angular y react------------------------------------
+22. nos compaerten el archivo adjunto 
+    22.1 las montamos en un hosting o webserver
+    22.2 podemos usar un paquete llamado: http-server: a simple static http server
+    22.3 se peude instalar en un proyecto para tener un proyecto ligero - no para producción pero sirve para probar rápidamente
+    22.4 los comandos son: npm install --global http-server
+    22.5 abro la app en la terminal CD(path) y una vezx abierta le agrego el comando:
+    http-server -o
+    22.6 vamos a probar montando lo de react - copio y lo pego en la carpeta de public
+    22.7 nodemon (app) - es para desplegar 
+    ----git push nuevos cambios-----------------------------------------------
+23. Para agregar cambios en el railway tenemos que hacer un nuevo push en el git
+    23.1 comandos:
+    * git add . //para tomar los utlimos cambios 
+    * git commit -m "Ajustes nuevos" // para ya mandarlo a la branch main
+
+
+
 
 
 
